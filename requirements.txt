@@ -1,0 +1,18 @@
+# Core
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+httpx>=0.25.0
+pydantic>=2.0.0
+
+# GraphRAG
+graphrag>=0.3.0
+
+# HuggingFace
+datasets>=2.14.0
+huggingface-hub>=0.20.0
+
+# Utilities
+tqdm>=4.66.0
+Pillow>=10.0.0

@@ -1,0 +1,92 @@
+# MedGemma RAG Project .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Conda
+*.conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files (IMPORTANT)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.tflite
+models/
+*.ggml
+
+# Huggingface cache
+.cache/
+
+# Data files (large)
+data/datasets/vqarad_images/
+data/datasets/pathvqa_images/
+data/output/
+data/benchmark_results/
+*.parquet
+
+# LanceDB vector store
+lancedb/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Keep these (add to git)
+!data/input/*.txt
+!data/settings.yaml
+!scripts/*.py
+!src/*.py
+!src/static/*.html
+!src/static/*.css
+!requirements.txt
+!README.md
