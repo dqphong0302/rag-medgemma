@@ -1,0 +1,5 @@
+Question: Chronic progressive cervical myelopathy with HTLV-I infection: Variant form of HAM/TSP?
+
+Context: To investigate the role of human T-lymphotrophic virus type I (HTLV-I) infection in four patients who developed slowly progressive myelopathy with abnormal MRI lesions in the cervical cord levels. Clinical and neuroradiologic examinations were performed, and the odds that an HTLV-I-infected individual of specified genotype, age, and provirus load had HTLV-I-associated myelopathy (HAM)/tropical spastic paraparesis (TSP) were calculated. Anti-HTLV-I antibodies were positive in both the serum and the CSF in all of the patients. Biopsied sample from spinal cord lesions showed inflammatory changes in Patient 1. Patient 2 had a demyelinating type of sensorimotor polyneuropathy. Two of the three patients examined showed high risk of developing HAM/TSP in virologic and immunologic aspects.
+
+Answer: These four cases may belong to a variant form of HAM/TSP, predominantly involving the cervical cord levels.

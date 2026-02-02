@@ -1,0 +1,5 @@
+Question: Do patterns of knowledge and attitudes exist among unvaccinated seniors?
+
+Context: To examine patterns of knowledge and attitudes among adults aged>65 years unvaccinated for influenza. Surveyed Medicare beneficiaries in 5 areas; clustered unvaccinated seniors by their immunization related knowledge and attitudes. Identified 4 clusters: Potentials (45%) would receive influenza vaccine to prevent disease; Fearful Uninformeds (9%) were unsure if influenza vaccine causes illness; Doubters (27%) were unsure if vaccine is efficacious; Misinformeds (19%) believed influenza vaccine causes illness. More Potentials (75%) and Misinformeds (70%) ever received influenza vaccine than did Fearful Uninformeds (18%) and Doubters (29%).
+
+Answer: Findings suggest that cluster analyses may be useful in identifying groups for targeted health messages.

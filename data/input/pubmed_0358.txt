@@ -1,0 +1,5 @@
+Question: Do nontriploid partial hydatidiform moles exist?
+
+Context: To study whether nontriploid partial hydatidiform moles truly exist. We conducted a reevaluation of pathology and ploidy in 19 putative nontriploid partial hydatidiform moles using standardized histologic diagnostic criteria and repeat flow cytometric testing by the Hedley technique. On review of the 19 moles, 53% (10/19) were diploid nonpartial moles (initially pathologically misclassified), and 37% (7/19) were triploid partial moles (initial ploidy misclassifications). One additional case (5%) was a diploid early complete mole (initially pathologically misclassified).
+
+Answer: Nontriploid partial moles probably do not exist: careful reevaluation of putative specimens will probably uncover pathologic or ploid errors in almost all cases.

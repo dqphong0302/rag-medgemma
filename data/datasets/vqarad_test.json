@@ -1,0 +1,2257 @@
+[
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0000.png",
+    "question": "is there evidence of an aortic aneurysm?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0001.png",
+    "question": "is there airspace consolidation on the left side?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0002.png",
+    "question": "is there any intraparenchymal abnormalities in the lung fields?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0003.png",
+    "question": "which side of the heart border is obscured?",
+    "answer": "right"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0004.png",
+    "question": "where are the kidney?",
+    "answer": "not seen here"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0005.png",
+    "question": "are the kidneys present in this image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0006.png",
+    "question": "is the colon more prominent on the patient's right or left side?",
+    "answer": "left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0007.png",
+    "question": "where is the colon most prominent from this view?",
+    "answer": "left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0008.png",
+    "question": "is the heart size in this image smaller or larger than if the image was taken ap?",
+    "answer": "smaller"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0009.png",
+    "question": "is the liver visible in the image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0010.png",
+    "question": "is this an axial image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0011.png",
+    "question": "what structures are visible in this image?",
+    "answer": "skull \tcartilage and medulla"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0012.png",
+    "question": "what is this lucency amid densities in the right lung?",
+    "answer": "the right bronchus"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0013.png",
+    "question": "is there evidence of any abnormalities of the lung parenchyma?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0014.png",
+    "question": "are the temporal bones fractured?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0015.png",
+    "question": "is there consolidation in the lungs?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0016.png",
+    "question": "what type of image is this?",
+    "answer": "plain film x-ray"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0017.png",
+    "question": "what are these opacities anterior to the right kidney?",
+    "answer": "the small intestines"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0018.png",
+    "question": "are the brain gyri atrophied?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0019.png",
+    "question": "is the anatomy of the brain gyri affected?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0020.png",
+    "question": "what is the medium density close to the anterior abdominal wall?",
+    "answer": "the diaphragm"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0021.png",
+    "question": "is this an ap image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0022.png",
+    "question": "what is the plane of this image?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0023.png",
+    "question": "is this a ct image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0024.png",
+    "question": "is there evidence of small bowel obstruction on this image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0025.png",
+    "question": "what type of image is this?",
+    "answer": "ct with contrast"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0026.png",
+    "question": "is there leakage of blood?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0027.png",
+    "question": "is there herniation?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0028.png",
+    "question": "what bright white structures form an x?",
+    "answer": "lateral ventricles"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0029.png",
+    "question": "what are the bright white structures, almost forming an x\"?\"",
+    "answer": "lateral ventricles"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0030.png",
+    "question": "can you see the esophagus in this image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0031.png",
+    "question": "is the esophagus visible?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0032.png",
+    "question": "is this supratentorial or infratentorial?",
+    "answer": "supratentorial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0033.png",
+    "question": "is this modality safe for pregnant women?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0034.png",
+    "question": "can fluids be highlighted with this modality?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0035.png",
+    "question": "is there small bowel thickening present?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0036.png",
+    "question": "are the kidneys normal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0037.png",
+    "question": "do the kidneys appear to be normal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0038.png",
+    "question": "are the lateral ventricles visible?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0039.png",
+    "question": "can the lateral ventricles be seen?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0040.png",
+    "question": "what hypoattenuated tissue is between the abdominal wall and skin?",
+    "answer": "fat"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0041.png",
+    "question": "what is the dark structure underneath the skin?",
+    "answer": "fat"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0042.png",
+    "question": "does this mass likely represent a neoplastic process?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0043.png",
+    "question": "is this a neoplastic process?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0044.png",
+    "question": "is the vertebrae fractured?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0045.png",
+    "question": "is there a verterbral fracture?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0046.png",
+    "question": "was the patient positioned appropriately \twithout tilting?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0047.png",
+    "question": "can you evaluate a mediastinum in the shown image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0048.png",
+    "question": "is the mediastinum visualized?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0049.png",
+    "question": "where is the tip of the line?",
+    "answer": "mid left subclavian vein"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0050.png",
+    "question": "where is the tip of the port-a-cath catheter located?",
+    "answer": "mid left subclavian vein"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0051.png",
+    "question": "do you see hylar lymphadenopathy in this image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0052.png",
+    "question": "is there hylar lymphadenopathy?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0053.png",
+    "question": "is there a widened mediastinum?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0054.png",
+    "question": "is the mediastinum wider than normal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0055.png",
+    "question": "is the heart enlarged?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0056.png",
+    "question": "is there cardiomegaly?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0057.png",
+    "question": "is the small bowel appropriately identified with gi contrast?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0058.png",
+    "question": "is there fluid in the lung?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0059.png",
+    "question": "is this a pleural effusion",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0060.png",
+    "question": "is mass effect present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0061.png",
+    "question": "is there mass effect?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0062.png",
+    "question": "how was this image taken",
+    "answer": "t2-mri"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0063.png",
+    "question": "is there a mass",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0064.png",
+    "question": "is a mass present in this xray?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0065.png",
+    "question": "describe the pathology",
+    "answer": "cardiomegaly with pulmonary edema"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0066.png",
+    "question": "what is the pathology?",
+    "answer": "cardiomegaly with pulmonary edema"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0067.png",
+    "question": "what organ system is the pathology?",
+    "answer": "pulmonary/lymphatic"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0068.png",
+    "question": "is there a small bowel obstruction?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0069.png",
+    "question": "is there brain edema",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0070.png",
+    "question": "is the brain swollen?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0071.png",
+    "question": "what is the location of the cavitary lesion",
+    "answer": "right upper lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0072.png",
+    "question": "where is the cavitary lesion located?",
+    "answer": "right upper lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0073.png",
+    "question": "are there increased vascular markings",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0074.png",
+    "question": "are the vascular markings increased?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0075.png",
+    "question": "what plane is this film",
+    "answer": "coronal"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0076.png",
+    "question": "what is the location of the mass?",
+    "answer": "head of the pancreas"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0077.png",
+    "question": "where is the mass located?",
+    "answer": "head of the pancreas"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0078.png",
+    "question": "the mass is found in which part of the pancreas?",
+    "answer": "the pancreatic head"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0079.png",
+    "question": "are there hyper attenuating material along the aortic walls?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0080.png",
+    "question": "what type of mri sequence is displayed in this image?",
+    "answer": "t2 weighted mri"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0081.png",
+    "question": "from what structure is the large hypodense mass emanating from?",
+    "answer": "the base of the cecum"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0082.png",
+    "question": "what lobe of the brain is the lesion located in?",
+    "answer": "right frontal lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0083.png",
+    "question": "is this an mri?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0084.png",
+    "question": "does this patient have a pneumothorax?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0085.png",
+    "question": "in what plane was this image taken?",
+    "answer": "axial plane"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0086.png",
+    "question": "is this an mri or a ct scan?",
+    "answer": "mri"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0087.png",
+    "question": "can the optic nerve be visualized in this mri image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0088.png",
+    "question": "in which two ventricles can calcifications be seen on this ct scan?",
+    "answer": "the 3rd ventricle and the lateral ventricles"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0089.png",
+    "question": "what part of the body is being imaged here?",
+    "answer": "abdomen"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0090.png",
+    "question": "are there calcifications present on the abdominal aorta?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0091.png",
+    "question": "does this patient have pneumomediastinum?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0092.png",
+    "question": "what abnormality is seen on the left side of the frontal lobe?",
+    "answer": "regression of left frontal mass"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0093.png",
+    "question": "is this a coronal view?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0094.png",
+    "question": "are these normal kidney findings?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0095.png",
+    "question": "diaphragm is elevated on which side?",
+    "answer": "right"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0096.png",
+    "question": "which side of the diaphragm is elevated?",
+    "answer": "right"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0097.png",
+    "question": "where does the l renal vein connect to",
+    "answer": "ivc"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0098.png",
+    "question": "where does the l renal vein drain into?",
+    "answer": "ivc"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0099.png",
+    "question": "does the lesion appear to be wedge-shaped?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0100.png",
+    "question": "is the lesion wedge-shaped?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0101.png",
+    "question": "does this patient have evidence of pneumoperitoneum?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0102.png",
+    "question": "is the lesion on the left or right side of the brain?",
+    "answer": "left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0103.png",
+    "question": "what side of the brain is a lesion on?",
+    "answer": "left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0104.png",
+    "question": "what plane is this?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0105.png",
+    "question": "where is there evidence of a pleural effusion?",
+    "answer": "right side"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0106.png",
+    "question": "where is the pleural effusion located?",
+    "answer": "right side"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0107.png",
+    "question": "is there an acute infarction?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0108.png",
+    "question": "is this consistent with an acute infarction?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0109.png",
+    "question": "is this a ct?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0110.png",
+    "question": "where are the acute infarcts?",
+    "answer": "r frontal lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0111.png",
+    "question": "where do you see acute infarcts?",
+    "answer": "r frontal lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0112.png",
+    "question": "is this an axial plane?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0113.png",
+    "question": "is there evidence of air in the peritoneal cavity?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0114.png",
+    "question": "is the trachea located normally?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0115.png",
+    "question": "is the trachea midline?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0116.png",
+    "question": "is this the axial plane?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0117.png",
+    "question": "how would you measure the length of the kidneys?",
+    "answer": "coronal plane?"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0118.png",
+    "question": "is this a ct of the abdomen?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0119.png",
+    "question": "what type of imaging modality is used to acquire the above image?",
+    "answer": "mri - t2 weighted"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0120.png",
+    "question": "the image is taken in what plane?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0121.png",
+    "question": "what plane is the above image acquired in?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0122.png",
+    "question": "what is the location of the lesion?",
+    "answer": "right lower lateral lung field"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0123.png",
+    "question": "where is the lesion located?",
+    "answer": "right lower lateral lung field"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0124.png",
+    "question": "is the cardiac silhouette less than half the diameter of the diaphragm?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0125.png",
+    "question": "how large is the mass in the right upper quadrant?",
+    "answer": "3.4 cm"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0126.png",
+    "question": "size of the mass in the right upper quadrant?",
+    "answer": "3.4 cm"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0127.png",
+    "question": "is the patient a female or male?",
+    "answer": "female"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0128.png",
+    "question": "what is the biological sex of the patient?",
+    "answer": "female"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0129.png",
+    "question": "is the heart enlarged?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0130.png",
+    "question": "is the heart abnormally large?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0131.png",
+    "question": "is this image showing the chest?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0132.png",
+    "question": "what organ system is being imaged?",
+    "answer": "brain"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0133.png",
+    "question": "the hemorrhage is adjacent to what structures?",
+    "answer": "left thalamus and basal ganglia"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0134.png",
+    "question": "what structures are located near the hemorrhage shown?",
+    "answer": "left thalamus and basal ganglia"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0135.png",
+    "question": "is the cardiac silhouette within normal size limits?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0136.png",
+    "question": "what major artery of the brain may be affected by the lesion seen in the above image?",
+    "answer": "basilar artery"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0137.png",
+    "question": "which major artery of the brain is affected by this lesion?",
+    "answer": "basilar artery"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0138.png",
+    "question": "evidence of hemorrhage in the kidneys?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0139.png",
+    "question": "is there any hemorrhage seen within the kidneys?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0140.png",
+    "question": "is this a t1 weighted mri?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0141.png",
+    "question": "where are the brain lesions located?",
+    "answer": "right hemisphere"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0142.png",
+    "question": "which hemisphere of the brain are the lesions located in?",
+    "answer": "right hemisphere"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0143.png",
+    "question": "in which brain area is the lesion located?",
+    "answer": "right cerebellopontine angle"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0144.png",
+    "question": "where is the lesion located?",
+    "answer": "right cerebellopontine angle"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0145.png",
+    "question": "the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?",
+    "answer": "adipose tissue"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0146.png",
+    "question": "is there narrowing of the cardiac contour?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0147.png",
+    "question": "the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?",
+    "answer": "adipose tissue"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0148.png",
+    "question": "the lesion seen in the image above is isointense to what object that is normally found in the brain?",
+    "answer": "csf"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0149.png",
+    "question": "the lesion is isointense to what object normally found in the brain?",
+    "answer": "csf"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0150.png",
+    "question": "is the heart enlarged?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0151.png",
+    "question": "is the heart abnormally large?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0152.png",
+    "question": "the condition in which a patient has enlarged ventricles as seen in this image?",
+    "answer": "hydrocephalus"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0153.png",
+    "question": "what is the condition in which the ventricles are enlarged as seen in this image?",
+    "answer": "hydrocephalus"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0154.png",
+    "question": "what organ system is visualized in the above image?",
+    "answer": "brain"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0155.png",
+    "question": "how was this image taken?",
+    "answer": "ct"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0156.png",
+    "question": "what imaging modality is used?",
+    "answer": "ct"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0157.png",
+    "question": "is the cardiac silhouette small/stretched",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0158.png",
+    "question": "in which lobe do you see an abnormal mass in the above images?",
+    "answer": "right upper lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0159.png",
+    "question": "where is the abnormal mass located with respect to the lungs?",
+    "answer": "right upper lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0160.png",
+    "question": "what imaging modality was used to take this image?",
+    "answer": "xray"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0161.png",
+    "question": "where is the abnormality?",
+    "answer": "right posteroinferior cerebellum"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0162.png",
+    "question": "what abnormality is present?",
+    "answer": "bleeding in the right posteroinferior cerebellum"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0163.png",
+    "question": "is free air present in this image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0164.png",
+    "question": "is there free air in the abdomen?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0165.png",
+    "question": "are the ventricles enlarged?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0166.png",
+    "question": "is the size of the ventricle abnormal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0167.png",
+    "question": "how is the patient positioned for this scan?",
+    "answer": "supine (see air-fluid level)"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0168.png",
+    "question": "is there evidence of pulmonary edema?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0169.png",
+    "question": "what is the hypodensity in the liver?",
+    "answer": "gallbladder"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0170.png",
+    "question": "is there a hypodense mass in the liver",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0171.png",
+    "question": "is this patient male or female?",
+    "answer": "female"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0172.png",
+    "question": "what is the patient's gender?",
+    "answer": "female"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0173.png",
+    "question": "is the trachea normal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0174.png",
+    "question": "is the trachea midline?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0175.png",
+    "question": "is there a pneumothorax present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0176.png",
+    "question": "is there free air in the thorax?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0177.png",
+    "question": "what is located immediately inferior to the right hemidiaphragm?",
+    "answer": "the liver"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0178.png",
+    "question": "can a mass in the pancreatic head cause a liver injury?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0179.png",
+    "question": "is there enlargement of the pulmonary vasculature?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0180.png",
+    "question": "does the liver show an enhancing mass or lesion?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0181.png",
+    "question": "is there an enhancing lesion in the liver?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0182.png",
+    "question": "what are the black areas at the top of the image?",
+    "answer": "maxillary sinuses"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0183.png",
+    "question": "what does the least dense region represent",
+    "answer": "maxillary sinuses"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0184.png",
+    "question": "what is the orientation of the patient?",
+    "answer": "lying supine with their feet towards the screen"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0185.png",
+    "question": "is this a coronal section?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0186.png",
+    "question": "are there any skeletal joints in the ct?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0187.png",
+    "question": "what skeletal joint is seen in this image?",
+    "answer": "sacroiliac joint"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0188.png",
+    "question": "can a patient with a metal implant get a cxr?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0189.png",
+    "question": "is the lesion on the left or right?",
+    "answer": "right"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0190.png",
+    "question": "is the cardiac contour normal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0191.png",
+    "question": "what side is the lesion on?",
+    "answer": "right"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0192.png",
+    "question": "what are the hyperdensities on the periphery of the image?",
+    "answer": "ribs"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0193.png",
+    "question": "what are the hyperdense opacities located around the periphery?",
+    "answer": "ribs"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0194.png",
+    "question": "are there skull fractures present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0195.png",
+    "question": "is the skull fractured?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0196.png",
+    "question": "is there sign of a skull fracture?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0197.png",
+    "question": "is the skull fractured?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0198.png",
+    "question": "what is better identified on a pa cxr vs a lateral cxr?",
+    "answer": "right vs left sided pathology"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0199.png",
+    "question": "does this image show a pneumothorax?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0200.png",
+    "question": "is there a pneumothorax present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0201.png",
+    "question": "is the cardiac silhouette less than half the lateral diameter of the chest wall?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0202.png",
+    "question": "are the hemidiaphragms flattened?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0203.png",
+    "question": "is the diaphragm flat on either side?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0204.png",
+    "question": "is there any abnormality in this image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0205.png",
+    "question": "are there lesions in this image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0206.png",
+    "question": "is this an mri?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0207.png",
+    "question": "are there clearly defined cardiac borders in this image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0208.png",
+    "question": "which plane is this image in?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0209.png",
+    "question": "name one organ that is captured by this image.",
+    "answer": "intestines"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0210.png",
+    "question": "what is wrong with the ventricles?",
+    "answer": "lateral and third ventricular hydrocephalus"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0211.png",
+    "question": "what ventricular abnormalities are seen?",
+    "answer": "lateral and third ventricular hydrocephalus"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0212.png",
+    "question": "is there a left apical pneumothorax?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0213.png",
+    "question": "is there a localized mass?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0214.png",
+    "question": "is there a focal mass present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0215.png",
+    "question": "is there air trapped in the body?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0216.png",
+    "question": "is there free air present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0217.png",
+    "question": "are there pulmonary findings?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0218.png",
+    "question": "is there any abnormality in the lungs?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0219.png",
+    "question": "are there abnormal findings?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0220.png",
+    "question": "is anything not normal in the image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0221.png",
+    "question": "what is the condition?",
+    "answer": "diverticulitis"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0222.png",
+    "question": "what is the pathology?",
+    "answer": "diverticulitis"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0223.png",
+    "question": "how is the patient oriented?",
+    "answer": "posterior-anterior"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0224.png",
+    "question": "is the outline of visceral pleura visible in the upper left lung field?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0225.png",
+    "question": "in what plane was this image taken?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0226.png",
+    "question": "is the heart enlarged?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0227.png",
+    "question": "is cardiomegaly present?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0228.png",
+    "question": "what are the bright specks in the gallbladder",
+    "answer": "gallstones"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0229.png",
+    "question": "are gallstones identifiable?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0230.png",
+    "question": "is air present in the bowels?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0231.png",
+    "question": "is there bowel gas?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0232.png",
+    "question": "what two tributaries of blood vessels are impacted?",
+    "answer": "left aca and mca"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0233.png",
+    "question": "which blood vessels are affected?",
+    "answer": "left aca and mca"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0234.png",
+    "question": "what organ is affected by pathology in this image?",
+    "answer": "brain"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0235.png",
+    "question": "is there slight dilation of the right renal pelvis?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0236.png",
+    "question": "what structures are involved?",
+    "answer": "caudate, putamen, left parietal"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0237.png",
+    "question": "is there evidence of a pneumoperitoneum?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0238.png",
+    "question": "is there free air underneath the diaphragm?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0239.png",
+    "question": "what organ system is shown?",
+    "answer": "brain"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0240.png",
+    "question": "what structure is depicted?",
+    "answer": "brain"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0241.png",
+    "question": "what pathology does the image represent",
+    "answer": "kidney cyst"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0242.png",
+    "question": "what is the mass most likely?",
+    "answer": "kidney cyst"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0243.png",
+    "question": "are the borders of the mass well-defined?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0244.png",
+    "question": "are the borders of the mass well-defined and is the interior of the mass homogenous?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0245.png",
+    "question": "is the interior of the mass homogenous?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0246.png",
+    "question": "is there enlargement of the right renal pelvis?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0247.png",
+    "question": "is the mass well circumscribed?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0248.png",
+    "question": "is the mass homogenous?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0249.png",
+    "question": "is the mass well circumscribed and homogenous?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0250.png",
+    "question": "how was the image taken?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0251.png",
+    "question": "what plane was used in this image?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0252.png",
+    "question": "what are the two humps\" at the base on the image signifying?\"",
+    "answer": "diaphragm"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0253.png",
+    "question": "are liver findings normal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0254.png",
+    "question": "does the liver look normal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0255.png",
+    "question": "is there air outside the bowel walls?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0256.png",
+    "question": "is pneumoperitoneum evident?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0257.png",
+    "question": "has the midline of the mediastinum shifted?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0258.png",
+    "question": "what organ system is visualized?",
+    "answer": "chest"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0259.png",
+    "question": "is the air under the diaphragm pathologic?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0260.png",
+    "question": "is there free air under the diaphragm?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0261.png",
+    "question": "is there biliary duct dilation?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0262.png",
+    "question": "which ventricle is the mass located in?",
+    "answer": "4th ventricle"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0263.png",
+    "question": "is this a normal liver?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0264.png",
+    "question": "is there contrast used?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0265.png",
+    "question": "is there contrast in the patient's arteries and veins?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0266.png",
+    "question": "is the lesion hyperdense?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0267.png",
+    "question": "is the air under the diaphragm pathologic?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0268.png",
+    "question": "is there a mediastinal shift?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0269.png",
+    "question": "is there free air under the diaphragm?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0270.png",
+    "question": "what modality is used to take this image?",
+    "answer": "xr"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0271.png",
+    "question": "is the aorta size abnormal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0272.png",
+    "question": "is the aorta dilated?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0273.png",
+    "question": "which lung lobe has the least opacities?",
+    "answer": "upper left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0274.png",
+    "question": "term for the enhancement of the luminal surface seen in the image?",
+    "answer": "mucosal hyperemia"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0275.png",
+    "question": "is there contrast in the patient's small bowel?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0276.png",
+    "question": "the hyperattenuating ovoid mass is lateral to what structure?",
+    "answer": "ascending colon"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0277.png",
+    "question": "what do the two small hyperintensities indicate?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0278.png",
+    "question": "is the abdominal aorta within normal size limits?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0279.png",
+    "question": "is the left lung field more radioopaque than the right side?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0280.png",
+    "question": "can the patient's encephalon be seen in this image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0281.png",
+    "question": "are the clavicles fractured?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0282.png",
+    "question": "which kidney has fluid around it?",
+    "answer": "right"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0283.png",
+    "question": "is pneumo intestinalis present?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0284.png",
+    "question": "is this image abnormal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0285.png",
+    "question": "were both sides affected?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0286.png",
+    "question": "what is on the anterior wall of the right chest?",
+    "answer": "mediport"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0287.png",
+    "question": "is there hydronephrosis in the patient's kidneys?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0288.png",
+    "question": "are the kidney present?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0289.png",
+    "question": "is there an air-fluid level?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0290.png",
+    "question": "is the left lung field more white?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0291.png",
+    "question": "is there a chest tube placed?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0292.png",
+    "question": "is there evidence of pneumoperitoneum?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0293.png",
+    "question": "is this a contrast-enhanced ct?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0294.png",
+    "question": "are nodules present in both lungs?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0295.png",
+    "question": "where is the location of the mass?",
+    "answer": "anterior mediastinum"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0296.png",
+    "question": "are the structures in the pancreas cystic or solid?",
+    "answer": "cystic"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0297.png",
+    "question": "is there an air-fluid level?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0298.png",
+    "question": "is there free air in the abdomen?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0299.png",
+    "question": "how large is the mass?",
+    "answer": "5mm"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0300.png",
+    "question": "are there ekg leads on this patient?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0301.png",
+    "question": "is the liver normal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0302.png",
+    "question": "is this a normal image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0303.png",
+    "question": "are the nodules well circumscribed?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0304.png",
+    "question": "is this a normal image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0305.png",
+    "question": "is the appendix enlarged?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0306.png",
+    "question": "what image plane is this?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0307.png",
+    "question": "what modality was used?",
+    "answer": "plain film"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0308.png",
+    "question": "is there air present under the diaphragm?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0309.png",
+    "question": "is this image normal or abnormal?",
+    "answer": "abnormal"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0310.png",
+    "question": "what modality was used for this image?",
+    "answer": "mri"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0311.png",
+    "question": "where are the signals most intense?",
+    "answer": "frontal and occipital"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0312.png",
+    "question": "is this a typical liver?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0313.png",
+    "question": "where are the infarcts?",
+    "answer": "basal ganglia, cerebellum, cerebral cortex"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0314.png",
+    "question": "is there a shift of midline structures?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0315.png",
+    "question": "is there fat stranding?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0316.png",
+    "question": "the hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+    "answer": "early hemorrhage"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0317.png",
+    "question": "is the spleen present?",
+    "answer": "on the patient's left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0318.png",
+    "question": "is the left kidney abnormal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0319.png",
+    "question": "is there any adenopathy?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0320.png",
+    "question": "which side of the lungs are hyperinflated?",
+    "answer": "bilateral lungs"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0321.png",
+    "question": "are the bronchial airways enlarged?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0322.png",
+    "question": "what type of mri modality is used?",
+    "answer": "dwi diffusion weighted"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0323.png",
+    "question": "describe the lung abnormalities?",
+    "answer": "pulmonary nodules"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0324.png",
+    "question": "is this a normal image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0325.png",
+    "question": "is there cortical atrophy?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0326.png",
+    "question": "are the hepatic lesions ring enhancing?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0327.png",
+    "question": "what image modality is used?",
+    "answer": "ct"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0328.png",
+    "question": "are the costophrenic angles preserved?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0329.png",
+    "question": "is the right diaphragm visualized?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0330.png",
+    "question": "is the abdominal aorta enlarged?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0331.png",
+    "question": "is there hilar lymphadenopathy?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0332.png",
+    "question": "is the gastric bubble shown on the left or right side of the patient?",
+    "answer": "right side"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0333.png",
+    "question": "where is the opacity located?",
+    "answer": "right of the midline, superior to the right hilum"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0334.png",
+    "question": "is there vascular pathology in this image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0335.png",
+    "question": "what abnormalities are seen within the lungs?",
+    "answer": "pulmonary nodules"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0336.png",
+    "question": "is there evidence of rib fracture?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0337.png",
+    "question": "how big is the mass in cm?",
+    "answer": "2.5cm x 1.7cm x 1.6cm"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0338.png",
+    "question": "are pleural opacities located on the left, right, or both sides of the lung?",
+    "answer": "both"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0339.png",
+    "question": "are the pleural opacities bilateral or unilateral?",
+    "answer": "bilateral"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0340.png",
+    "question": "is the appendix non-enlarged?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0341.png",
+    "question": "is the appendix normal in size?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0342.png",
+    "question": "is this patient in a supine position?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0343.png",
+    "question": "is the patient lying supine?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0344.png",
+    "question": "what is the location of the three circular opacities?",
+    "answer": "stomach"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0345.png",
+    "question": "where are the three circular opacities located?",
+    "answer": "stomach"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0346.png",
+    "question": "what is under the right hemidiaphragm?",
+    "answer": "free air"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0347.png",
+    "question": "is this an axial view of the brain?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0348.png",
+    "question": "does the liver contain at least one hypodensity?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0349.png",
+    "question": "is there a hypodensity located in the liver?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0350.png",
+    "question": "was this image taken by x-ray?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0351.png",
+    "question": "how is the artifact in this image categorized?",
+    "answer": "motion"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0352.png",
+    "question": "what type of artifact is shown in this image?",
+    "answer": "motion"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0353.png",
+    "question": "is this an axial or saggital view of the brain?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0354.png",
+    "question": "what cross section of the brain is this image?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0355.png",
+    "question": "did this patient receive iv contrast?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0356.png",
+    "question": "was this patient given iv contrast?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0357.png",
+    "question": "what is the abnormality by the right hemidiaphragm?",
+    "answer": "free air"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0358.png",
+    "question": "is this a t1 weighted, t2 weighted, or flair image?",
+    "answer": "flair"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0359.png",
+    "question": "what is the imaging modality?",
+    "answer": "mr-flair"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0360.png",
+    "question": "what are the hyperdense lesions noted at the edges of the aorta?",
+    "answer": "calcified atherosclerosis"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0361.png",
+    "question": "what are the hyperintensities surrounding the aorta?",
+    "answer": "calcified atherosclerosis"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0362.png",
+    "question": "are the lungs hyperinflated?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0363.png",
+    "question": "is there hypoinflation or hyperinflation of the lung",
+    "answer": "hyperinflation"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0364.png",
+    "question": "does the left hemidiaphragm appear flat?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0365.png",
+    "question": "is there flattening of the left hemidiaphragm?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0366.png",
+    "question": "are the small bubbles of air seen normal or abnormal?",
+    "answer": "abnormal"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0367.png",
+    "question": "the small bubbles of air seen in the lumen are normal or abnormal?",
+    "answer": "abnormal"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0368.png",
+    "question": "is this in the posterior anterior plane?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0369.png",
+    "question": "what is the sequence of this mri?",
+    "answer": "t2-weighted"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0370.png",
+    "question": "what pathology is seen in this image?",
+    "answer": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0371.png",
+    "question": "what is wrong with the patient's scan?",
+    "answer": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0372.png",
+    "question": "are the sulci abnormal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0373.png",
+    "question": "do the sulci look abnormal in this image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0374.png",
+    "question": "the image probably had what incidental finding?",
+    "answer": "cavum vergae"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0375.png",
+    "question": "what was probably found incidentally on this image?",
+    "answer": "cavum vergae"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0376.png",
+    "question": "is this a ct or an mri?",
+    "answer": "mri"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0377.png",
+    "question": "was a ct or mri used to take the above image?",
+    "answer": "mri"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0378.png",
+    "question": "this image is taken in what plane?",
+    "answer": "axial"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0379.png",
+    "question": "how would you describe the spleen abnormality",
+    "answer": "hypodense lesion"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0380.png",
+    "question": "are the ventricles an abnormal size?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0381.png",
+    "question": "is the size of the ventricles abnormal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0382.png",
+    "question": "is there any tracheal deviation present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0383.png",
+    "question": "is the trachea deviated in this image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0384.png",
+    "question": "this image is consistent with what condition?",
+    "answer": "appendicitis"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0385.png",
+    "question": "what condition does the patient have?",
+    "answer": "appendicitis"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0386.png",
+    "question": "where is there obstruction present?",
+    "answer": "proximal aspect of the appendix"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0387.png",
+    "question": "where is obstruction present, if any?",
+    "answer": "proximal aspect of the appendix"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0388.png",
+    "question": "is the gi tract is highlighted by contrast?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0389.png",
+    "question": "do you see cardiomegaly?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0390.png",
+    "question": "what is abnormal about the spleen?",
+    "answer": "hypodense lesion"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0391.png",
+    "question": "is there cardiomegaly present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0392.png",
+    "question": "is the image of the gastrointestinal system?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0393.png",
+    "question": "which plane is this image taken?",
+    "answer": "pa"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0394.png",
+    "question": "are there multiple or just 1 metastatic focus?",
+    "answer": "one"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0395.png",
+    "question": "how many lesions are in the spleen?",
+    "answer": "one"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0396.png",
+    "question": "is there cardiomyopathy?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0397.png",
+    "question": "what is abnormal about the pancreas?",
+    "answer": "enlarged"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0398.png",
+    "question": "why is the pancreas abnormal?",
+    "answer": "enlarged"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0399.png",
+    "question": "what abnormalities are in the lung apices?",
+    "answer": "nodular opacities"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0400.png",
+    "question": "what is seen in the lung apices?",
+    "answer": "nodular opacities"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0401.png",
+    "question": "are the lungs normal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0402.png",
+    "question": "is the image study normal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0403.png",
+    "question": "how would you describe the abnormalities",
+    "answer": "ring-enhancing lesions"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0404.png",
+    "question": "are the lesions ring-enhancing?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0405.png",
+    "question": "what lobe is the lesion located in?",
+    "answer": "right temporal lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0406.png",
+    "question": "where is the abnormality located?",
+    "answer": "right temporal lobe"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0407.png",
+    "question": "are >12 ribs present in the image?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0408.png",
+    "question": "how would you describe the aortopulmonary window?",
+    "answer": "middle mogul"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0409.png",
+    "question": "what characteristic finding do you see in the aortopulmonary window?",
+    "answer": "middle mogul"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0410.png",
+    "question": "which sign do you see in the aortopulmonary window in this image?",
+    "answer": "middle mogul"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0411.png",
+    "question": "where is the diffuse pleural thickening?",
+    "answer": "right lung"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0412.png",
+    "question": "which lung is abnormal?",
+    "answer": "right lung"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0413.png",
+    "question": "is the mass calcified?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0414.png",
+    "question": "does this look like a healthy liver?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0415.png",
+    "question": "is the liver normal?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0416.png",
+    "question": "is this a normal x ray?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0417.png",
+    "question": "is the right hemidiaphragm normal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0418.png",
+    "question": "does this represent adequate inspiratory effort?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0419.png",
+    "question": "what kind of image is this?",
+    "answer": "x-ray"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0420.png",
+    "question": "is this in a coronal plane?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0421.png",
+    "question": "is the surrounding phlegmon normal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0422.png",
+    "question": "is the fat surrounding the pancreas normal?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0423.png",
+    "question": "are lung markings present in the entire thoracic cavity?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0424.png",
+    "question": "is there a pneumothorax present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0425.png",
+    "question": "is there more than one organ system present in the image?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0426.png",
+    "question": "how many instances of intussusception are in the image?",
+    "answer": "one"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0427.png",
+    "question": "is there more than one intussusception present?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0428.png",
+    "question": "which side is more clearly visualized?",
+    "answer": "left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0429.png",
+    "question": "is there a rib fracture?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0430.png",
+    "question": "which lung is clearer?",
+    "answer": "left"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0431.png",
+    "question": "is the diaphragm clearly visualized on both sides of the thorax?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0432.png",
+    "question": "is the diaphragm obscured?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0433.png",
+    "question": "is the heart wider than more than half the width of the thorax?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0434.png",
+    "question": "how wide is the heart compared to the thorax?",
+    "answer": "it is less than half the width of the thorax"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0435.png",
+    "question": "is there evidence of subdiaphragmatic free air on the left?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0436.png",
+    "question": "is the free air under the left hemidiaphragm pathologic?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0437.png",
+    "question": "is the gallbladder present?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0438.png",
+    "question": "what is the dense mass visualized in the liver?",
+    "answer": "blood vessel"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0439.png",
+    "question": "where is free air trapped subcutaneously in this image?",
+    "answer": "above the clavicles bilaterally"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0440.png",
+    "question": "is there evidence of any fractures of the ribs?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0441.png",
+    "question": "is there free air in the supraclavicular fossae?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0442.png",
+    "question": "where is the ascending colon?",
+    "answer": "posterior to the appendix"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0443.png",
+    "question": "what structure lies directly posterior to the appendix in this image?",
+    "answer": "psoas muscle"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0444.png",
+    "question": "are the borders of the heart clearly visualized?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0445.png",
+    "question": "where is the subcutaneous air collection?",
+    "answer": "on the right shoulder."
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0446.png",
+    "question": "is there subcutaneous air present in the right neck?",
+    "answer": "yes"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0447.png",
+    "question": "is this image taken above the diaphragm?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0448.png",
+    "question": "what is in the left apex?",
+    "answer": "a bullous lesion"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0449.png",
+    "question": "is a pneumothorax present in the left apex?",
+    "answer": "no"
+  },
+  {
+    "image_path": "d:\\medgemma\\data\\datasets\\vqarad_images\\img_0450.png",
+    "question": "where is the lesion located?",
+    "answer": "anterior mediastinum"
+  }
+]

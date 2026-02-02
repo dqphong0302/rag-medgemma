@@ -1,0 +1,5 @@
+Question: Are sports medicine journals relevant and applicable to practitioners and athletes?
+
+Context: To examine the evidence base of sports medicine research and assess how relevant and applicable it is to everyday practice. Original research articles, short reports, and case reports published in four major sport and exercise medicine journals were studied and classified according to the main topic of study and type of subjects used. The most common topic was sports science, and very few studies related to the treatment of injuries and medical conditions. The majority of published articles used healthy subjects sampled from the sedentary population, and few studies have been carried out on injured participants.
+
+Answer: There is a dearth of studies addressing diagnostic and treatment interventions in the sports medicine literature. The evidence base for sports medicine must continue to increase in terms of volume and quality.
