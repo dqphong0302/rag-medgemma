@@ -1,0 +1,8 @@
+{
+  "dataset": "MedQA",
+  "n_samples": 100,
+  "baseline_accuracy": 55.0,
+  "rag_accuracy": 50.0,
+  "improvement": -5.0,
+  "duration_seconds": 496.351126
+}

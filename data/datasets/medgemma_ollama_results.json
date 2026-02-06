@@ -1,0 +1,203 @@
+[
+  {
+    "dataset": "MedQA",
+    "accuracy": 62.0,
+    "correct": 31,
+    "total": 50,
+    "avg_time": 1.702423849105835
+  },
+  {
+    "dataset": "PubMedQA",
+    "accuracy": 74.0,
+    "correct": 37,
+    "total": 50,
+    "avg_time": 1.9627898263931274
+  },
+  {
+    "dataset": "Vietnamese",
+    "samples": 30,
+    "avg_time": 8.743863034248353,
+    "results": [
+      {
+        "question": "Chào bác sĩ,\nVinmec có trẻ hóa da bằng sóng RF hoặc hồng ngoại không? Em năm nay",
+        "reference": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ giải đáp như sau:\nVinmec hiện có dịch vụ trẻ hóa da bằng sóng RF cho hiệu quả tốt. Tuy nhiên, không có dịch ",
+        "prediction": "Chào bạn,\n\nVinmec có cung cấp dịch vụ trẻ hóa da bằng sóng RF và hồng ngoại. Đối với bạn, 28 tuổi, đây là một lựa chọn tốt để cải thiện các dấu hiệu l",
+        "time": 7.914561033248901
+      },
+      {
+        "question": "Chào bác sĩ ạ. Bác sĩ cho em hỏi có làm cách nào để tự kiểm tra vòng tránh thai ",
+        "reference": "Chào bạn, bạn có thể tự kiểm tra bằng cách: Rửa sạch tay, đặt ngón tay vào trong âm đạo đến khi bạn cảm thấy cổ tử cung của mình. Nếu cảm thấy sợi dây",
+        "prediction": "Chào bạn, có một số cách để tự kiểm tra vòng tránh thai xem có đúng vị trí không:\n\n1.  **Kiểm tra bằng tay:** Sau khi đặt vòng, bạn có thể dùng tay để",
+        "time": 11.510195970535278
+      },
+      {
+        "question": "Chào bác sĩ,\nVợ em bị quáng gà do di truyền từ bố. Vậy bác sĩ cho em hỏi phương ",
+        "reference": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBệnh lý quáng gà do di truyền hiện nay chưa có phương pháp điều trị, vợ của bạn cần kh",
+        "prediction": "Chào bạn,\n\nQuáng gà di truyền thường không có phương pháp điều trị triệt để, nhưng có thể kiểm soát triệu chứng bằng các biện pháp sau:\n\n*   **Chế độ ",
+        "time": 12.016618013381958
+      },
+      {
+        "question": "Cháu là Nam 28 tuổi, bác sĩ cho cháu hỏi làm sao để cai nghiện sex, nghiện quay ",
+        "reference": "Chào bạn! Cảm ơn bạn đã gửi câu hỏi đến AI-Doctor! Xin trả lời câu hỏi của bạn như sau! Với tình trạng như của bạn chưa thực sự là nghiện sex đâu nhé,",
+        "prediction": "Chào bạn, tôi hiểu sự khó khăn của bạn. Để cai nghiện sex và nghiện quay tay, bạn có thể thử các phương pháp sau:\n\n1.  **Tìm kiếm sự giúp đỡ chuyên ng",
+        "time": 12.258289098739624
+      },
+      {
+        "question": "Xin chào bác sĩ,\nTôi gửi hình ảnh này bác sĩ xem giúp tôi bị làm sao.\nB",
+        "reference": "Chào bạn ,\nBạn vui lòng cung cấp hình ảnh trong câu hỏi mới để bác sỹ hỗ trợ tư vấn được chính xác, đầy đủ.\nCòn theo như bạn mô tả thì có khả năng mụn",
+        "prediction": "Chào bạn,\n\nDựa trên mô tả của bạn, có khả năng bạn bị **viêm nang lông** (ngứa ran, sưng đỏ, đau nhức quanh nang lông). Tuy nhiên, để chắc chắn, cần t",
+        "time": 9.631496906280518
+      },
+      {
+        "question": "Chào bác sĩ! Con nhà em 5 tuổi mới đi viện bỏng về đc 3 tháng, do trong thời gia",
+        "reference": "Chào bạn! Trong câu hỏi bạn không nói rõ con bị bỏng ở bộ phận nào và mức độ ra sao. Vết bỏng sau khi thành sẹo và mất độ đàn hồi bình thường của da c",
+        "prediction": "Chào bạn, tình trạng cổ và vai lệch sau khi bé bị bỏng và nằm bất động trong thời gian dài là do cơ bắp bị teo yếu và mất đi sự co giãn. Để khắc phục,",
+        "time": 8.436176061630249
+      },
+      {
+        "question": "Chào bác sĩ,\nGần đây, cháu thấy tóc rụng nhiều, mỗi lần cháu gội đầu hay ngủ dậy",
+        "reference": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nBạn cần cung cấp thêm thông tin ngoài rụng tóc thì bạn có triệu chứng gì khác ở da đầu",
+        "prediction": "Chào bạn, tình trạng rụng tóc nhiều ở nam giới có thể do nhiều nguyên nhân, bao gồm:\n\n*   **Rụng tóc do hormone:** Nam giới có thể bị rụng tóc do sự t",
+        "time": 12.169043064117432
+      },
+      {
+        "question": "Cháu chào bác sĩ ạ. Cháu làm nam, năm nay 19 tuổi. Gần đây cháu phát hiện ra qua",
+        "reference": "Chào bạn. Với những thông tin bạn cung cấp có thể bạn đang bị viêm nhiễm nam khoa, do vi khuẩn và nấm gây hại tấn công vào vùng kín, gây nhiễm khuẩn đ",
+        "prediction": "Chào bạn, với những triệu chứng bạn mô tả và tiền sử quan hệ không an toàn, khả năng cao bạn bị nhiễm HPV (Human Papillomavirus). HPV là virus gây ra ",
+        "time": 8.563425064086914
+      },
+      {
+        "question": "Xin chào bác sĩ, cho em hỏi cách nào để giảm thiểu bị huyết áp thấp ?",
+        "reference": "chào bạn!\n\nĐó là tất cả các phương pháp thay đổi lối sống, sinh hoạt và điều chỉnh chế độ ăn uống. Người bệnh huyết áp thấp cần lưu ý một số vấn đề sa",
+        "prediction": "Chào bạn, để giảm thiểu nguy cơ huyết áp thấp, bạn có thể thực hiện các biện pháp sau:\n\n*   **Chế độ ăn uống lành mạnh:** Ăn nhiều rau xanh, trái cây,",
+        "time": 11.446601152420044
+      },
+      {
+        "question": "Bác sĩ cho tôi hỏi, Mẹ tôi 60t bị CHA + mỡ máu + đau thắt ngực đã lâu, bình thườ",
+        "reference": "Chào bạn, huyết áp dao động khoảng 110/70-130/80 mmHg là tương đối ổn nhé. Nếu bác có chóng mặt đau đầu cần tìm nguyên nhân khác nữa với huyết áp như ",
+        "prediction": "Chào bạn,\n\nViệc mẹ bạn chóng mặt và huyết áp tăng sau khi uống losartan có thể do tác dụng phụ của thuốc hoặc sự thay đổi huyết áp. Việc uống thêm los",
+        "time": 12.392328977584839
+      },
+      {
+        "question": "Chào bác sĩ. Hơn một tháng nay em thường xuyên bị chảy máu mũi, đôi khi tự nhiên",
+        "reference": "Chào em!\nTheo như mô tả của em thì khả năng em bị viêm mũi xoang bán cấp (vì trên 1 tháng). Để điều trị đúng và chính xác em nên khám Tai - Mũi - Họng",
+        "prediction": "Chào bạn, triệu chứng của bạn gợi ý khả năng viêm mũi dị ứng hoặc viêm xoang. Việc sử dụng thuốc xịt mũi có thể làm tăng thêm tình trạng viêm, gây ngh",
+        "time": 12.24321174621582
+      },
+      {
+        "question": "Xin chào bác sĩ, cháu bị vết thâm do mụn để lại, có ít sẹo nữa, k biết có thuốc ",
+        "reference": "Chào bạn. \nBạn có thể sử dụng Kem nghệ Thái Dương hoặc thuốc Madecassol để bôi lên vùng thâm và sẹo. Có thể dùng nghệ tươi tuy nhiên sẽ ảnh hưởng đến ",
+        "prediction": "Chào bạn, vết thâm do mụn để lại có thể điều trị bằng các sản phẩm chứa vitamin C, retinol hoặc axit hyaluronic. Tuy nhiên, vì da mặt bạn dễ nhạy cảm,",
+        "time": 6.255035161972046
+      },
+      {
+        "question": "Xin chào bác sĩ, em cần tỉnh táo để làm việc học tập vậy nên bác sĩ uống nhiều c",
+        "reference": "Để tỉnh táo làm việc học tập em có thể uống các loại trà, không nên uống nưóc ngọt và cafe vì nó còn chứa nhiều chất khác có hại cho sức khỏe.",
+        "prediction": "Chào bạn, việc uống quá nhiều cafein có thể gây ra các tác dụng phụ như lo âu, mất ngủ, tim đập nhanh. Với liều lượng 290mg cafein mỗi ngày, bạn đang ",
+        "time": 6.948163986206055
+      },
+      {
+        "question": "Xin chào bác sĩ,\nDạ cho con hỏi,bé con được 1 tháng 20 ngày,con ít sữa n",
+        "reference": "Chào bạn\nVới 1 em bé 1 tháng 2o ngày mà bạn đã đổi 3 lần sữa như vậy là chưa hợp lý.\nbé tăng cân tốt như vậy chứng tỏ bé hấp thu cũng rất tốt mà mẹ kh",
+        "prediction": "Chào bạn,\n\nDựa trên thông tin bạn cung cấp, bé có thể đang gặp vấn đề về táo bón và/hoặc khó tiêu. Việc thay đổi sữa có thể ảnh hưởng đến hệ tiêu hóa ",
+        "time": 10.60221815109253
+      },
+      {
+        "question": "Em bị mụn ở vùng bên dưới lưỡi, nhưng chỉ khi nào ăn gì đó vào thì mới mọc lên, ",
+        "reference": "Cảm ơn bạn đã tin tưởng AI-Doctor. Trân trọng!",
+        "prediction": "Chào bạn, mụn dưới lưỡi xuất hiện khi ăn đồ nóng, cay, chua hoặc đồ kích ứng có thể là **nhiệt miệng** hoặc **viêm miệng**. Tuy nhiên, với tình trạng ",
+        "time": 5.856513023376465
+      },
+      {
+        "question": "Thưa bác sĩ, hôm nay con ngủ rất bình thường nhưng không hiểu sao đêm hôm qua co",
+        "reference": "Chào cháu,\nTrước hết cháu có thể điều chỉnh lại giờ giấc, sinh hoạt của mình như: Không thức quá khuya, không dùng chất kích thích như trà, café, loại",
+        "prediction": "Chào bạn, tình trạng bạn mô tả có thể do nhiều nguyên nhân gây ra, bao gồm:\n\n*   **Stress và lo âu:** Căng thẳng trong cuộc sống có thể ảnh hưởng đến ",
+        "time": 11.479228258132935
+      },
+      {
+        "question": "Chào bác sĩ! Xin hỏi bác sĩ, tình trạng cộm và nhìn thấy khóe mắt có bóng dấu hi",
+        "reference": "Chào Bạn! Theo thông tin bạn chia sẻ thì bác sĩ nghĩ đến viêm kết mạc nhãn cầu góc ngoài khóe mắt hơi dày nên khi bạn nhìn ra khóe mắt sẽ thấy có bóng",
+        "prediction": "Chào bạn, tình trạng cộm mắt và nhìn thấy khóe mắt có bóng có thể do nhiều nguyên nhân, bao gồm:\n\n*   **Mỏi mắt:** Do nhìn gần nhiều, sử dụng máy tính",
+        "time": 10.277583837509155
+      },
+      {
+        "question": "Bác sĩ cho em hỏi, em bị ngứa họng và ho nhiều, cứ bị lạnh cổ là ho nhiều không ",
+        "reference": "Chào em, em nên khám nội soi Tai mũi họng để định hướng chẩn đoán và điều trị thích hợp. Việc dùng kháng sinh hay kháng viêm đường tiêm truyền ngoại v",
+        "prediction": "Chào bạn, với tình trạng ngứa họng, ho nhiều, đặc biệt là ho do lạnh, và không cải thiện sau 3 ngày dùng kháng sinh, có thể bạn đang bị viêm họng hoặc",
+        "time": 11.646505117416382
+      },
+      {
+        "question": "Xin chào bác sĩ,\nE 24t, e hay bị đau bụng liên sườn bên hông trái rất khó chịu n",
+        "reference": "Chào bạn, bạn hay bị đau bụng liên sườn bên trái khi đói, đau bụng mà liên quan đến ăn uống có thể bạn gặp phải vấn để về dạ day và đường tiêu hoá. Bạ",
+        "prediction": "Chào bạn,\n\nĐau bụng liên sườn bên hông trái khi đói có thể do nhiều nguyên nhân, bao gồm:\n\n*   **Viêm túi mật:** Đây là nguyên nhân phổ biến nhất, đặc",
+        "time": 11.149991989135742
+      },
+      {
+        "question": "Xin chào bác sĩ, cứ thường đến kì thi là con tôi lại có triệu chứng buồn nôn hoặ",
+        "reference": "Chào bạn\nTriệu chứng của con bạn có thể do bị áp lực học hành căng thẳng gây ra đau đầu buồn nôn.Bạn nên cho con học hành theo khoa học,ăn uống đầy đủ",
+        "prediction": "Chào bạn, triệu chứng buồn nôn và đau đầu trước kỳ thi có thể do nhiều nguyên nhân, bao gồm căng thẳng, lo lắng, thiếu ngủ, hoặc thậm chí là các vấn đ",
+        "time": 6.838467836380005
+      },
+      {
+        "question": "Em bị cảm với các biểu hiện: ho, sốt nhẹ kéo dài, sổ nghẹt mũi, khó thở, hơi đau",
+        "reference": "Chào bạn,\nNếu sau bị cảm một tuần rồi không đỡ, có thể bạn có bội nhiễm. Rất nhiều trường hợp sau\ncảm cúm do hệ miễn dịch bị suy giảm có thể dẫn đến v",
+        "prediction": "Chào bạn, với các triệu chứng bạn mô tả và việc dùng thuốc không hiệu quả sau hơn 1 tuần, có thể bạn đang bị cảm cúm hoặc viêm mũi họng mãn tính. Việc",
+        "time": 5.755278825759888
+      },
+      {
+        "question": "Xin chào bác sĩ, tôi 33 tuổi ,nam,đã cưới vợ nay 7 nam nhưng chưa có con, đã khá",
+        "reference": "Chào em!\nChậm có con là 1 vấn đề khá phổ biến trong cộng đồng dân cư. và việc khó hay dễ có con phụ thuộc vào cả Vợ lẫn Chồng. Nếu vợ em cũng đi khám ",
+        "prediction": "Chào bạn,\n\nBệnh viện Bình Dân Chuyên Khoa Nam có thể thực hiện các thủ thuật hỗ trợ sinh sản nam, bao gồm cả việc điều trị tinh trùng yếu. Tuy nhiên, ",
+        "time": 7.231206178665161
+      },
+      {
+        "question": "Xin chào bác sĩ,tôi và chồng có 1 lần không sử dụng thuốc tránh thai hay bao cao",
+        "reference": "Chào bạn\nTrong mọi trường hợp đã quan hệ là có khả năng có thai dù đã sử dụng biện pháp nào đi chăng nữa vì ko biện pháp nào đạt hiểu quả 100%. Hơn nữ",
+        "prediction": "Chào bạn, có khả năng bạn đã mang thai. Việc không sử dụng biện pháp tránh thai và chồng bạn ra ngoài không vào trong bạn là những yếu tố nguy cơ cao.",
+        "time": 4.507495880126953
+      },
+      {
+        "question": "tôi 49 tuổi là nam. bị bệnh mất ngủ rất lâu rồi. Tôi đã dùng nhiều loại thuốc tr",
+        "reference": "Chào anh, anh có bị căng thẳng, suy nghĩ về vấn đề gì không? Anh có dùng chất kích thích gì không như rượu, cà phê, thuốc lá...Với những trường hợp mấ",
+        "prediction": "Chào bạn, với tình trạng mất ngủ kéo dài và không đáp ứng với nhiều phương pháp điều trị khác nhau, tôi khuyên bạn nên đi khám bác sĩ chuyên khoa về g",
+        "time": 7.409754991531372
+      },
+      {
+        "question": "Chào bác sĩ! Tôi bị viêm gan B khoảng 5 năm rồi nhưng ở thể không hoạt động, sức",
+        "reference": "Chào bạn! Bạn gái bạn nên kiểm tra lượng kháng thể kháng viêm gan siêu vi B trong cơ thể là bao nhiêu, có đủ lượng tối thiểu hay không, nếu chưa đủ ha",
+        "prediction": "Chào bạn,\n\nViêm gan B không hoạt động ở bạn không có nghĩa là bạn gái bạn không bị lây nhiễm. Nếu bạn gái bạn đã tiêm vắc-xin, khả năng lây nhiễm từ b",
+        "time": 6.332827091217041
+      },
+      {
+        "question": "Xin chào bác sĩ! Cho tôi hỏi: Nội soi đại tràng có đau không? Cảm ơn bác sĩ đã t",
+        "reference": "Chào bạn! Nội soi đại tràng có đau không? Là thắc mắc của rất nhiều người. Thực tế, nội soi đại tràng, trực tràng thường diễn ra trong khoảng 20 - 30 ",
+        "prediction": "Chào bạn, nội soi đại tràng có thể gây cảm giác khó chịu hoặc hơi đau nhẹ trong quá trình thực hiện. Tuy nhiên, thường không gây đau quá mức. Bạn có t",
+        "time": 4.1244471073150635
+      },
+      {
+        "question": "Xin chào bác sĩ,\nCháu bị đau tim hay bị gì ạ??  Mỗi lần uống nước đá xong là cứ ",
+        "reference": "Chào bạn\nVới các thông tin bạn đưa ra chúng tôi không thể khẳng định là bạn bị bệnh gì hay đang ở trong tình trạng nào. Bạn có thể cung cấp thêm thông",
+        "prediction": "Chào bạn, triệu chứng đau nhói ở ngực khi uống nước đá và khi thở có thể là dấu hiệu của một số vấn đề về tim mạch, bao gồm cả đau thắt ngực. Tuy nhiê",
+        "time": 7.58854866027832
+      },
+      {
+        "question": "Xin chào bác sĩ,\nBé nhà tôi được 11 tháng mà cổ bị vẹo giờ phải chữa thế nào ạ",
+        "reference": "Chào bạn. \nBé nhà bạn 11 tháng mới bị vẹo cổ chứ không phải vẹo từ lúc sinh thì có nhiều khả năng do bé nằm gối đầu quá cao, thường xuyên nằm về một b",
+        "prediction": "Chào bạn,\n\nCổ bị vẹo ở trẻ nhỏ có thể do nhiều nguyên nhân, cần thăm khám bác sĩ để xác định chính xác. Các phương pháp điều trị có thể bao gồm vật lý",
+        "time": 5.048121690750122
+      },
+      {
+        "question": "Chào bác sĩ,\nEm bị dị ứng với thuốc hạ sốt paracetamol. Bác sĩ cho em hỏi, nên d",
+        "reference": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nNếu bạn dị ứng với thuốc hạ sốt paracetamol, bạn có thể thử dòng thuốc hạ sốt khác khô",
+        "prediction": "Chào bạn,\n\nKhi bị dị ứng paracetamol, bạn có thể sử dụng các thuốc hạ sốt thay thế như ibuprofen, aspirin (nếu không có chống chỉ định), hoặc các thuố",
+        "time": 9.11390209197998
+      },
+      {
+        "question": "Chào bác sĩ,\nEm bị viêm tai thanh dịch. Vậy bác sĩ cho em hỏi viêm tai thanh dịc",
+        "reference": "Chào bạn,\nĐể trả lời câu hỏi trên, bác sĩ xin giải đáp như sau:\nViêm tai thanh dịch là bệnh lý liên quan đến chức năng thông thoáng của vòi tai (là ốn",
+        "prediction": "Chào bạn, viêm tai thanh dịch có thể điều trị được bằng thuốc hoặc phẫu thuật, tùy thuộc vào mức độ và nguyên nhân gây bệnh. Bệnh này không tự khỏi mà",
+        "time": 5.5686540603637695
+      }
+    ]
+  }
+]

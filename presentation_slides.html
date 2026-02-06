@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>Báo Cáo: RAG-MedGemma EdgeAI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/dracula.min.css">
+    <!-- Import Vietnamese Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --r-main-font: 'Be Vietnam Pro', sans-serif;
+            --r-heading-font: 'Be Vietnam Pro', sans-serif;
+            --r-main-font-size: 24px;
+        }
+
+        .reveal h1,
+        .reveal h2,
+        .reveal h3,
+        .reveal h4,
+        .reveal h5,
+        .reveal h6 {
+            text-transform: none;
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+
+        .highlight {
+            color: #50fa7b;
+            font-weight: bold;
+        }
+
+        .warning {
+            color: #ffb86c;
+            font-weight: bold;
+        }
+
+        .metric {
+            font-size: 1.5em;
+            color: #ff79c6;
+        }
+
+        table {
+            font-size: 0.7em !important;
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px !important;
+        }
+
+        th,
+        td {
+            border: 1px solid #6272a4 !important;
+            padding: 12px !important;
+        }
+
+        th {
+            background-color: #44475a;
+            color: #8be9fd;
+        }
+
+        .diagram-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 90%;
+        }
+
+        .mermaid {
+            font-size: 0.8em;
+        }
+
+        .cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            text-align: left;
+        }
+
+        ul {
+            margin-left: 20px !important;
+        }
+
+        li {
+            margin-bottom: 15px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1: Title -->
+            <section>
+                <h3 style="line-height: 1.4;">Phát triển mô hình RAG-MedGemma<br>kết hợp EdgeAI</h3>
+                <h4 style="color: #8be9fd;">cho hệ thống hỗ trợ ra quyết định lâm sàng</h4>
+                <br>
+                <p><b>Hội Nghị Khoa Học Y Dược</b></p>
+                <small>Người trình bày: Phong Dang</small>
+            </section>
+
+            <!-- Slide 2: Mục Lục -->
+            <section>
+                <h3>Nội Dung Báo Cáo</h3>
+                <ol>
+                    <li>Đặt vấn đề & Thách thức</li>
+                    <li>Giải pháp đề xuất (Edge AI + Hybrid RAG)</li>
+                    <li>Kiến trúc hệ thống chi tiết</li>
+                    <li>Thực nghiệm & Kết quả</li>
+                    <li>So sánh & Đánh giá</li>
+                    <li>Kết luận & Hướng phát triển</li>
+                </ol>
+            </section>
+
+            <!-- Slide 3: Đặt vấn đề -->
+            <section>
+                <h3>ĐẶT VẤN ĐỀ</h3>
+                <div class="cols">
+                    <div>
+                        <h4>🏥 Bối cảnh y tế số</h4>
+                        <ul>
+                            <li>Nhu cầu tra cứu thông tin nhanh, chính xác.</li>
+                            <li>Dữ liệu y khoa (EMR) là **tuyệt mật**.</li>
+                            <li>Bệnh viện tuyến dưới thiếu bác sĩ chuyên khoa.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>🚧 Thách thức hiện tại</h4>
+                        <ul>
+                            <li class="fragment"><b>Cloud AI:</b> Rủi ro lộ lọt dữ liệu bệnh nhân (HIPAA).</li>
+                            <li class="fragment"><b>Internet:</b> Không ổn định tại vùng sâu, vùng xa.</li>
+                            <li class="fragment"><b>Chi phí:</b> Hệ thống Server AI quá đắt đỏ.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Giải Pháp Tổng Thể -->
+            <section>
+                <h3>GIẢI PHÁP ĐỀ XUẤT</h3>
+                <p>Hệ thống hỗ trợ ra quyết định lâm sàng (CDSS) <span class="highlight">Offline & Bảo mật</span></p>
+                <div class="diagram-container">
+                    <div class="mermaid">
+                        graph LR
+                        A[Dữ liêu Y văn] -->|Indexing| B[(Edge Knowledge Base)]
+                        C[Bác sĩ] -->|Truy vấn| D[Thiết bị Edge Edge]
+                        D <-->|Hybrid RAG| B
+                            D -->|Local Inference| E[MedGemma Q8]
+                            E -->|Tư vấn| C
+
+                            style D fill:#ffb86c,stroke:#333
+                            style E fill:#ff79c6,stroke:#333
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: Tại sao chọn MedGemma & Edge AI? -->
+            <section>
+                <h3>CÔNG NGHỆ CỐT LÕI</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Công nghệ</th>
+                            <th>Lý do lựa chọn</th>
+                            <th>Vai trò</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Google MedGemma (4B)</b></td>
+                            <td>Mô hình chuyên y tế, nhỏ gọn (4 tỷ tham số), hiệu năng cao.</td>
+                            <td>Bộ não xử lý ngôn ngữ & tư duy y khoa.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Quantization (Q8)</b></td>
+                            <td>Giảm dung lượng từ 8GB -> 4.1GB, chạy trên RAM phổ thông.</td>
+                            <td>Tối ưu hóa phần cứng Edge.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Hybrid RAG</b></td>
+                            <td>Kết hợp Tìm kiếm ngữ nghĩa + Đồ thị tri thức (Graph).</td>
+                            <td>Truy xuất thông tin chính xác.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Slide 6: Kiến trúc Hybrid RAG -->
+            <section>
+                <h3>KIẾN TRÚC HYBRID RAG</h3>
+                <small>Kết hợp sức mạnh của Vector Search và Knowledge Graph</small>
+                <div class="diagram-container">
+                    <div class="mermaid">
+                        flowchart TD
+                        Q[Câu hỏi lâm sàng] --> Router{Bộ định tuyến}
+
+                        subgraph "Semantic Search"
+                        Router -->|Vector Sim| Embed[Embedding]
+                        Embed --> VectorDB[(Vector DB)]
+                        VectorDB -->|Context 1| Merge
+                        end
+
+                        subgraph "Graph RAG"
+                        Router -->|Entities| NER[Trích xuất thực thể]
+                        NER --> GraphDB[(Knowledge Graph)]
+                        GraphDB -->|Relationships| Context2[Quan hệ Thuốc-Bệnh]
+                        Context2 -->|Context 2| Merge
+                        end
+
+                        Merge[Tổng hợp Ngữ cảnh] --> LLM[MedGemma-Q8]
+                        LLM --> Ans[Câu trả lời]
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 7: Thiết lập thực nghiệm -->
+            <section>
+                <h3>THIẾT LẬP THỰC NGHIỆM</h3>
+                <div class="cols">
+                    <div>
+                        <h4>💻 Phần cứng (Edge Device)</h4>
+                        <ul>
+                            <li><b>Device:</b> Macbook Pro (M4 Chip)</li>
+                            <li><b>RAM:</b> 16 GB</li>
+                            <li><b>Môi trường:</b> Local (Offline 100%)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>📚 Dữ liệu & Mô hình</h4>
+                        <ul>
+                            <li><b>Model:</b> MedGemma-4b-it-Q8_0 (4.13 GB)</li>
+                            <li><b>Dataset 1:</b> MedQA (USMLE - Đề thi bác sĩ Mỹ)</li>
+                            <li><b>Dataset 2:</b> PubMedQA (Nghiên cứu y sinh)</li>
+                            <li><b>Sample size:</b> 100 câu hỏi ngẫu nhiên/tập</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 8: Kết quả Benchmark -->
+            <section>
+                <h3>KẾT QUẢ: ĐỘ CHÍNH XÁC</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mô Hình</th>
+                            <th>Phương Pháp</th>
+                            <th>MedQA USMLE</th>
+                            <th>PubMedQA</th>
+                            <th>Nhận xét</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MedGemma (Q4)</td>
+                            <td>Baseline</td>
+                            <td>46.7%</td>
+                            <td>46.7%</td>
+                            <td>Độ chính xác thấp</td>
+                        </tr>
+                        <tr>
+                            <td>MedGemma (Q4)</td>
+                            <td>Basic RAG</td>
+                            <td>60.0%</td>
+                            <td>30.0% <span class="warning">⬇️</span></td>
+                            <td>Nhiễu thông tin</td>
+                        </tr>
+                        <tr style="background: #44475a;">
+                            <td><b>MedGemma (Q8)</b></td>
+                            <td><b>Hybrid RAG</b></td>
+                            <td><span class="highlight">63.3%</span></td>
+                            <td><span class="highlight">63.3%</span></td>
+                            <td><b>Tốt nhất (+16.6%)</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="fragment fade-in" style="margin-top: 20px; color: #f1fa8c;">➔ Hybrid RAG + Q8 cải thiện độ
+                    chính xác đồng đều trên cả 2 tập dữ liệu.</p>
+            </section>
+
+            <!-- Slide 9: So sánh với Cloud -->
+            <section>
+                <h3>SO SÁNH: EDGE AI vs. CLOUD AI</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tiêu Chí</th>
+                            <th>Edge AI (Giải pháp này)</th>
+                            <th>Google Cloud (Official)</th>
+                            <th>Đánh giá</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Độ chính xác (MedQA)</b></td>
+                            <td><span class="highlight">63.3%</span></td>
+                            <td>64.4%</td>
+                            <td>Đạt <b>98.2%</b> hiệu suất Cloud</td>
+                        </tr>
+                        <tr>
+                            <td><b>Bảo mật dữ liệu</b></td>
+                            <td><span class="highlight">Tuyệt đối (Offline)</span></td>
+                            <td>Rủi ro (Gửi qua API)</td>
+                            <td>Vượt trội</td>
+                        </tr>
+                        <tr>
+                            <td><b>Độ trễ (Latency)</b></td>
+                            <td>2.3s - 14s</td>
+                            <td>
+                                < 2s</td>
+                            <td>Chấp nhận được</td>
+                        </tr>
+                        <tr>
+                            <td><b>Chi phí vấn hành</b></td>
+                            <td><span class="highlight">0 VNĐ / query</span></td>
+                            <td>Tính phí theo Token</td>
+                            <td>Tiết kiệm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Slide 10: Demo Tình Huống -->
+            <section>
+                <h3>DEMO: ỨNG DỤNG LÂM SÀNG</h3>
+                <div
+                    style="background: #282a36; padding: 20px; border-radius: 10px; font-family: monospace; text-align: left; font-size: 0.7em;">
+                    <p><b style="color: #ff79c6;">Bác sĩ:</b> "Bệnh nhân nam 45 tuổi, đau ngực trái lan lên vai, tiền sử
+                        cao huyết áp. Cần làm gì?"</p>
+                    <hr>
+                    <p><b style="color: #8be9fd;">Hệ thống Edge AI (Hybrid RAG):</b></p>
+                    <p><i>[Đang truy xuất: Triệu chứng "Nhồi máu cơ tim", Tiền sử "Cao huyết áp"...]</i></p>
+                    <p><b>Gợi ý chẩn đoán:</b> Có khả năng cao là <b>Nhồi máu cơ tim cấp (AMI)</b>.</p>
+                    <p><b>Khuyến nghị xử trí:</b></p>
+                    <ol>
+                        <li>Đo điện tâm đồ (ECG) ngay lập tức.</li>
+                        <li>Xét nghiệm men tim (Troponin).</li>
+                        <li>Thiết lập đường truyền tĩnh mạch, chuẩn bị Aspirin/Nitroglycerin theo phác đồ.</li>
+                    </ol>
+                    <p style="color: #f1fa8c;">*Lưu ý: Đây là hỗ trợ tham khảo, bác sĩ vui lòng kiểm tra lâm sàng.*</p>
+                </div>
+            </section>
+
+            <!-- Slide 11: Demo Tiếng Việt -->
+            <section>
+                <h3>HƯỚNG PHÁT TRIỂN: RAG TIẾNG VIỆT</h3>
+                <p>Thử nghiệm POC với dữ liệu <b>hungnm/vietnamese-medical-qa</b></p>
+                <div class="cols">
+                    <div style="font-size: 0.8em;">
+                        <h4>🛠️ Cấu hình thử nghiệm</h4>
+                        <ul>
+                            <li><b>Data:</b> 9,335 cặp hỏi-đáp y tế Việt Nam.</li>
+                            <li><b>Embedding:</b> Multilingual-MiniLM-L12.</li>
+                            <li><b>Model:</b> MedGemma-4B-Q8.</li>
+                        </ul>
+                    </div>
+                    <div
+                        style="background: #282a36; padding: 15px; border-radius: 8px; font-size: 0.6em; color: #f8f8f2;">
+                        <p><b style="color: #ff79c6;">Q:</b> "Triệu chứng của sốt xuất huyết là gì?"</p>
+                        <p><b style="color: #bd93f9;">RAG Context:</b> "...sốt cao đột ngột, đau đầu, đau hốc mắt, đau
+                            cơ..."</p>
+                        <p><b style="color: #50fa7b;">MedGemma:</b> "Triệu chứng thường gặp bao gồm sốt cao, đau đầu dữ
+                            dội, đau phía sau mắt, đau khớp và cơ, buồn nôn..."</p>
+                    </div>
+                </div>
+                <p style="margin-top: 20px; color: #f1fa8c; font-size: 0.8em;">✅ Kết quả: Hệ thống hiểu và trả lời tốt
+                    Tiếng Việt bản địa.</p>
+            </section>
+
+            <!-- Slide 12: Hướng phát triển -->
+            <section>
+                <h3>HƯỚNG NGHIÊN CỨU TƯƠNG LAI (2025-2026)</h3>
+                <small>Dựa trên các nghiên cứu mới nhất về MedGemma & Medical AI</small>
+                <div class="cols" style="font-size: 0.7em;">
+                    <div class="fragment">
+                        <h4>1. Multimodal RAG (Đa phương thức)</h4>
+                        <p>Tích hợp xử lý <b>Hình ảnh y tế (X-quang, CT, MRI)</b> cùng với văn bản.</p>
+                        <ul>
+                            <li><b>Công nghệ:</b> MedGemma 1.5/2 Vision.</li>
+                            <li><b>Ứng dụng:</b> Chẩn đoán hình ảnh tự động kết hợp bệnh án điện tử.</li>
+                        </ul>
+                    </div>
+                    <div class="fragment">
+                        <h4>2. Agentic Healthcare (AI Tác tử)</h4>
+                        <p>Nâng cấp từ Chatbot thụ động sang <b>Agent chủ động</b>.</p>
+                        <ul>
+                            <li><b>Khả năng:</b> Tự động tra cứu thuốc, đặt lịch hẹn, cảnh báo tương tác thuốc.</li>
+                            <li><b>Reasoning:</b> Chuỗi suy luận (Chain-of-Thought) phức tạp.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fragment"
+                    style="margin-top: 20px; background: #44475a; padding: 15px; border-radius: 8px; font-size: 0.7em;">
+                    <h4>3. Federated Learning (Học liên kết)</h4>
+                    <p>Huấn luyện mô hình ngay tại các bệnh viện vệ tinh mà <b>không chia sẻ dữ liệu gốc</b>.</p>
+                    <p>➔ Giải quyết triệt để bài toán chia sẻ tri thức y khoa giữa các tuyến (Trung ương - Địa phương).
+                    </p>
+                </div>
+            </section>
+
+            <!-- Slide 12: Cảm ơn -->
+            <section>
+                <h2>XIN CẢM ƠN QUÝ THẦY CÔ VÀ CÁC ĐỒNG NGHIỆP!</h2>
+                <br>
+                <p>Q & A</p>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            slideNumber: true,
+            transition: 'convex'
+        });
+        mermaid.initialize({ startOnLoad: true, theme: 'default' });
+    </script>
+</body>
+
+</html>

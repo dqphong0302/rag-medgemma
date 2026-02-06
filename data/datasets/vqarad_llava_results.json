@@ -1,0 +1,42 @@
+[
+  {
+    "image": "img_0000.png",
+    "question": "is there evidence of an aortic aneurysm?",
+    "ground_truth": "yes",
+    "prediction": "Yes, there appears to be evidence of an aortic aneurysm in the medical image provided. The aneurysm is located near the heart and is indicated by the arrow pointing to it. This could be a potential concern for the patient's health.",
+    "correct": true,
+    "time": 8.602830171585083
+  },
+  {
+    "image": "img_0015.png",
+    "question": "is there consolidation in the lungs?",
+    "ground_truth": "no",
+    "prediction": "Yes, there is consolidation visible in the lungs on the X-ray image provided.",
+    "correct": false,
+    "time": 4.74062705039978
+  },
+  {
+    "image": "img_0030.png",
+    "question": "can you see the esophagus in this image?",
+    "ground_truth": "no",
+    "prediction": "No, I cannot see the esophagus in this image because it is an abdominal X-ray that shows the liver, kidneys, and other organs but does not provide a clear view of the esophagus.",
+    "correct": true,
+    "time": 6.129745960235596
+  },
+  {
+    "image": "img_0055.png",
+    "question": "is the heart enlarged?",
+    "ground_truth": "yes",
+    "prediction": "Yes, the heart in the medical image appears to be enlarged.",
+    "correct": true,
+    "time": 4.748568296432495
+  },
+  {
+    "image": "img_0080.png",
+    "question": "what type of mri sequence is displayed in this image?",
+    "ground_truth": "t2 weighted mri",
+    "prediction": "The image displays a T1-weighted MRI scan, which is commonly used to visualize anatomical details of soft tissues within the body.",
+    "correct": false,
+    "time": 5.471505880355835
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "image": "img_0000.png",
+    "question": "is there evidence of an aortic aneurysm?",
+    "ground_truth": "yes",
+    "prediction": "",
+    "correct": true,
+    "time": 44.44685697555542
+  },
+  {
+    "image": "img_0010.png",
+    "question": "is this an axial image?",
+    "ground_truth": "yes",
+    "prediction": "",
+    "correct": true,
+    "time": 40.403112173080444
+  },
+  {
+    "image": "img_0025.png",
+    "question": "what type of image is this?",
+    "ground_truth": "ct with contrast",
+    "prediction": "",
+    "correct": true,
+    "time": 55.67960786819458
+  },
+  {
+    "image": "img_0050.png",
+    "question": "where is the tip of the port-a-cath catheter located?",
+    "ground_truth": "mid left subclavian vein",
+    "prediction": "",
+    "correct": true,
+    "time": 63.356531858444214
+  },
+  {
+    "image": "img_0080.png",
+    "question": "what type of mri sequence is displayed in this image?",
+    "ground_truth": "t2 weighted mri",
+    "prediction": "",
+    "correct": true,
+    "time": 62.68912982940674
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "dataset": "MedQA",
+    "baseline": 60.0,
+    "rag": 63.333333333333336,
+    "improvement": 3.3333333333333357
+  },
+  {
+    "dataset": "PubMedQA",
+    "baseline": 56.666666666666664,
+    "rag": 56.666666666666664,
+    "improvement": 0.0
+  }
+]

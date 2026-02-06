@@ -10,8 +10,9 @@ from pathlib import Path
 from tqdm import tqdm
 from datetime import datetime
 
-# Paths
-DATA_DIR = Path("d:/medgemma/data")
+# Paths - use relative paths from script location
+SCRIPT_DIR = Path(__file__).parent.resolve()
+DATA_DIR = SCRIPT_DIR.parent / "data"
 DATASETS_DIR = DATA_DIR / "datasets"
 RESULTS_DIR = DATA_DIR / "benchmark_results"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)

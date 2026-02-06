@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "MedQA",
+    "baseline_accuracy": 60.0,
+    "rag_accuracy": 60.0,
+    "improvement": 0.0,
+    "samples": 30
+  },
+  {
+    "dataset": "PubMedQA",
+    "baseline_accuracy": 60.0,
+    "rag_accuracy": 60.0,
+    "improvement": 0.0,
+    "samples": 30
+  }
+]

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>RAG-MedGemma + EdgeAI CDSS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/night.min.css">
+    <style>
+        :root {
+            --r-heading-color: #58a6ff;
+            --r-link-color: #79c0ff;
+        }
+
+        .reveal h1,
+        .reveal h2,
+        .reveal h3 {
+            text-transform: none;
+        }
+
+        .reveal h1 {
+            font-size: 1.8em;
+        }
+
+        .reveal h2 {
+            font-size: 1.4em;
+        }
+
+        .reveal h3 {
+            font-size: 1.1em;
+            color: #58a6ff;
+        }
+
+        .reveal table {
+            font-size: 0.6em;
+            margin: auto;
+        }
+
+        .reveal th {
+            background: #238636;
+        }
+
+        .reveal td,
+        .reveal th {
+            padding: 6px 12px;
+            border: 1px solid #30363d;
+        }
+
+        .highlight {
+            color: #58a6ff;
+            font-weight: bold;
+        }
+
+        .success {
+            color: #3fb950;
+        }
+
+        .danger {
+            color: #f85149;
+        }
+
+        .box {
+            background: #21262d;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-size: 0.8em;
+        }
+
+        .cols {
+            display: flex;
+            gap: 15px;
+        }
+
+        .cols>div {
+            flex: 1;
+        }
+
+        .small {
+            font-size: 0.7em;
+        }
+
+        .slide-img {
+            max-height: 200px;
+            border-radius: 10px;
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1: Title -->
+            <section>
+                <img src="images/slide_01_title_1770221950604.png" class="slide-img" style="max-height: 250px;">
+                <h1>🏥 RAG-MedGemma + EdgeAI</h1>
+                <h3>Hệ Thống Hỗ Trợ Ra Quyết Định Lâm Sàng</h3>
+                <p class="small">Hội nghị Khoa học Y Dược 2026 | Phong Dang</p>
+            </section>
+
+            <!-- Slide 2: Agenda -->
+            <section>
+                <h2>📋 Nội Dung Trình Bày</h2>
+                <img src="images/slide_02_agenda_1770221969351.png" class="slide-img">
+                <table>
+                    <tr>
+                        <td>1-2</td>
+                        <td>Đặt vấn đề & Câu hỏi nghiên cứu</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Phương pháp & Kiến trúc</td>
+                    </tr>
+                    <tr>
+                        <td>5-6</td>
+                        <td>Thiết kế thực nghiệm</td>
+                    </tr>
+                    <tr>
+                        <td>7-8</td>
+                        <td>Kết quả & Phân tích</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 3: Problem Statement -->
+            <section>
+                <h2>🎯 Đặt Vấn Đề</h2>
+                <img src="images/slide_03_problem_1770221986470.png" class="slide-img">
+                <div class="cols">
+                    <div class="box">🔒 Bảo mật dữ liệu</div>
+                    <div class="box">🌐 Kết nối mạng</div>
+                    <div class="box">💰 Chi phí API</div>
+                    <div class="box">⚠️ Hallucination</div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Research Questions -->
+            <section>
+                <h2>❓ Câu Hỏi Nghiên Cứu</h2>
+                <img src="images/slide_04_research_questions_1770222002841.png" class="slide-img">
+                <div class="box"><b>RQ1:</b> Edge AI khả thi với độ chính xác chấp nhận được?</div>
+                <div class="box"><b>RQ2:</b> RAG format nào giúp cải thiện độ chính xác?</div>
+                <div class="box"><b>RQ3:</b> Hiệu năng Edge vs Cloud như thế nào?</div>
+            </section>
+
+            <!-- Slide 5: Solution Overview -->
+            <section>
+                <h2>💡 Giải Pháp Đề Xuất</h2>
+                <img src="images/slide_05_solution_1770222046514.png" class="slide-img" style="max-height: 220px;">
+                <table>
+                    <tr>
+                        <th>Component</th>
+                        <th>Technology</th>
+                        <th>Benefit</th>
+                    </tr>
+                    <tr>
+                        <td>LLM</td>
+                        <td>MedGemma-Q8</td>
+                        <td>4GB VRAM</td>
+                    </tr>
+                    <tr>
+                        <td>RAG</td>
+                        <td>FAISS + Pure Knowledge</td>
+                        <td>Giảm hallucination</td>
+                    </tr>
+                    <tr>
+                        <td>Edge</td>
+                        <td>Ollama</td>
+                        <td>100% offline</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 6: MedGemma Introduction -->
+            <section>
+                <h2>🧠 MedGemma Model</h2>
+                <img src="images/slide_06_medgemma_1770222064027.png" class="slide-img" style="max-height: 220px;">
+                <div class="cols">
+                    <div class="box"><b>Đặc điểm:</b> Google 2024, 4B params, Medical fine-tuned</div>
+                    <div class="box"><b>Q8:</b> 4.13 GB, ~4GB VRAM, 1.4-2.4s/câu</div>
+                </div>
+            </section>
+
+            <!-- Slide 7: RAG Architecture -->
+            <section>
+                <h2>🔍 RAG Architecture</h2>
+                <img src="images/slide_07_rag_architecture_1770222085875.png" class="slide-img"
+                    style="max-height: 280px;">
+                <p class="small">Query → Embedding → FAISS → Context → MedGemma → Answer</p>
+            </section>
+
+            <!-- Slide 8: Knowledge Base Design -->
+            <section>
+                <h2>📚 Knowledge Base Design</h2>
+                <img src="images/slide_08_knowledge_base_1770222107157.png" class="slide-img"
+                    style="max-height: 280px;">
+                <table>
+                    <tr>
+                        <th>Format</th>
+                        <th>Docs</th>
+                        <th>Size</th>
+                    </tr>
+                    <tr>
+                        <td>GraphRAG</td>
+                        <td>1,000</td>
+                        <td>1.5 MB</td>
+                    </tr>
+                    <tr>
+                        <td class="danger">Q&A</td>
+                        <td>10,178</td>
+                        <td>14.9 MB</td>
+                    </tr>
+                    <tr>
+                        <td class="success">Pure Facts</td>
+                        <td>20,336</td>
+                        <td>29.8 MB</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 9: Datasets -->
+            <section>
+                <h2>📊 Dữ Liệu Thực Nghiệm</h2>
+                <img src="images/slide_09_datasets_1770222136863.png" class="slide-img">
+                <table>
+                    <tr>
+                        <th>Dataset</th>
+                        <th>Source</th>
+                        <th>N</th>
+                        <th>Type</th>
+                    </tr>
+                    <tr>
+                        <td>MedQA</td>
+                        <td>USMLE</td>
+                        <td>200</td>
+                        <td>MCQ</td>
+                    </tr>
+                    <tr>
+                        <td>PubMedQA</td>
+                        <td>Y sinh</td>
+                        <td>200</td>
+                        <td>Yes/No</td>
+                    </tr>
+                    <tr>
+                        <td>Vietnamese</td>
+                        <td>VN</td>
+                        <td>100</td>
+                        <td>Open</td>
+                    </tr>
+                    <tr>
+                        <td>VQA-RAD</td>
+                        <td>Imaging</td>
+                        <td>5</td>
+                        <td>Vision</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 10: Experiment 1 -->
+            <section>
+                <h2>🧪 Thực Nghiệm 1: Baseline</h2>
+                <img src="images/slide_10_baseline_1770222154027.png" class="slide-img">
+                <table>
+                    <tr>
+                        <th>Dataset</th>
+                        <th>Accuracy</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>MedQA</td>
+                        <td class="highlight">57.50%</td>
+                        <td>2.43s</td>
+                    </tr>
+                    <tr>
+                        <td>PubMedQA</td>
+                        <td class="highlight">50.50%</td>
+                        <td>1.40s</td>
+                    </tr>
+                    <tr>
+                        <td>Vietnamese</td>
+                        <td>✅ Qualitative</td>
+                        <td>7.53s</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 11: Experiment 2 -->
+            <section>
+                <h2>🧪 Thực Nghiệm 2: RAG Comparison</h2>
+                <img src="images/slide_11_rag_comparison_1770222171422.png" class="slide-img">
+                <table>
+                    <tr>
+                        <th>Approach</th>
+                        <th>MedQA</th>
+                        <th>Change</th>
+                    </tr>
+                    <tr>
+                        <td>Baseline</td>
+                        <td>55.0%</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="danger">Q&A Format</td>
+                        <td>50.0%</td>
+                        <td class="danger">-5.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="success">Pure Knowledge</td>
+                        <td>59.0%</td>
+                        <td class="success">+4.0%</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 12: Key Finding -->
+            <section data-background="#238636">
+                <h2>🔑 PHÁT HIỆN QUAN TRỌNG</h2>
+                <img src="images/slide_12_key_finding_1770222187914.png" class="slide-img" style="max-height: 250px;">
+                <h1 style="font-size: 2em;">Format > Size</h1>
+                <p>Định dạng context quan trọng hơn kích thước dữ liệu</p>
+            </section>
+
+            <!-- Slide 13: Why Q&A Fails -->
+            <section>
+                <h2>❌ Tại Sao Q&A Format Thất Bại?</h2>
+                <img src="images/slide_13_qa_fails_1770222224434.png" class="slide-img" style="max-height: 220px;">
+                <div class="cols">
+                    <div class="box">Similar questions gây nhiễu</div>
+                    <div class="box">Noisy options A/B/C/D</div>
+                    <div class="box">Conflicting signals</div>
+                </div>
+            </section>
+
+            <!-- Slide 14: Why Pure Facts Works -->
+            <section>
+                <h2>✅ Tại Sao Pure Facts Thành Công?</h2>
+                <img src="images/slide_14_pure_works_1770222239688.png" class="slide-img" style="max-height: 220px;">
+                <div class="cols">
+                    <div class="box">Clean knowledge</div>
+                    <div class="box">Support reasoning</div>
+                    <div class="box">Direct retrieval</div>
+                </div>
+            </section>
+
+            <!-- Slide 15: VQA-RAD -->
+            <section>
+                <h2>🩻 VQA-RAD: Vision Benchmark</h2>
+                <img src="images/slide_15_vqa_rad_1770222255332.png" class="slide-img" style="max-height: 250px;">
+                <table>
+                    <tr>
+                        <th>Image Type</th>
+                        <th>Samples</th>
+                        <th>Accuracy</th>
+                    </tr>
+                    <tr>
+                        <td>X-ray, CT, MRI</td>
+                        <td>5</td>
+                        <td class="success">100%</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 16: Edge vs Cloud -->
+            <section>
+                <h2>⚖️ Edge vs Cloud</h2>
+                <img src="images/slide_16_edge_vs_cloud_1770222277866.png" class="slide-img" style="max-height: 220px;">
+                <table>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Edge</th>
+                        <th>Cloud</th>
+                    </tr>
+                    <tr>
+                        <td>Accuracy</td>
+                        <td>59%</td>
+                        <td>~85%</td>
+                    </tr>
+                    <tr>
+                        <td>Privacy</td>
+                        <td class="success">✅ 100%</td>
+                        <td class="danger">❌</td>
+                    </tr>
+                    <tr>
+                        <td>Offline</td>
+                        <td class="success">✅</td>
+                        <td class="danger">❌</td>
+                    </tr>
+                    <tr>
+                        <td>Cost</td>
+                        <td class="success">Free</td>
+                        <td class="danger">API fees</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 17: Answer RQs -->
+            <section>
+                <h2>✅ Trả Lời Câu Hỏi Nghiên Cứu</h2>
+                <img src="images/slide_17_rq_answers_1770222314776.png" class="slide-img">
+                <div class="box"><b>RQ1:</b> ✅ 57.5% MedQA trên 16GB RAM</div>
+                <div class="box"><b>RQ2:</b> ✅ Pure Knowledge +4%, Q&A -5%</div>
+                <div class="box"><b>RQ3:</b> ✅ 59% vs 85%, Edge đảm bảo privacy</div>
+            </section>
+
+            <!-- Slide 18: Recommended Config -->
+            <section>
+                <h2>⚙️ Cấu Hình Khuyến Nghị</h2>
+                <img src="images/slide_18_config_1770222332118.png" class="slide-img">
+                <pre style="font-size: 0.5em; background: #161b22; padding: 15px; text-align: left;">
+Model:      MedGemma-4B-IT-Q8 (4.13 GB)
+RAG:        Pure Knowledge (20,336 docs)
+Hardware:   16GB RAM minimum
+Expected:   59% MedQA, 1.4-2.4s latency
+                </pre>
+            </section>
+
+            <!-- Slide 19: Limitations -->
+            <section>
+                <h2>⚠️ Hạn Chế & Hướng Phát Triển</h2>
+                <img src="images/slide_19_limitations_1770222349489.png" class="slide-img" style="max-height: 220px;">
+                <table>
+                    <tr>
+                        <th>Hạn chế</th>
+                        <th>Hướng phát triển</th>
+                    </tr>
+                    <tr>
+                        <td>Gap vs Cloud (26%)</td>
+                        <td>Fine-tune trên VN data</td>
+                    </tr>
+                    <tr>
+                        <td>Limited VN data</td>
+                        <td>Thêm phác đồ Bộ Y tế</td>
+                    </tr>
+                    <tr>
+                        <td>Small VQA test</td>
+                        <td>Full 451 images</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Slide 20: Conclusion -->
+            <section>
+                <h2>🎯 Kết Luận</h2>
+                <img src="images/slide_20_conclusion_1770222366261.png" class="slide-img" style="max-height: 250px;">
+                <div class="box" style="font-size: 1em;">
+                    <b>RAG-MedGemma + EdgeAI</b> là giải pháp khả thi<br>
+                    cho CDSS tại các cơ sở y tế Việt Nam
+                </div>
+                <p style="margin-top: 20px;">🙏 Cảm ơn đã lắng nghe!</p>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({ hash: true, slideNumber: true, transition: 'slide' });
+    </script>
+</body>
+
+</html>

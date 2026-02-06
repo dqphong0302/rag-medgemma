@@ -6,7 +6,9 @@ from datasets import load_dataset
 import json
 from pathlib import Path
 
-OUTPUT_DIR = Path("d:/medgemma/data/datasets")
+# Paths - use relative paths from script location
+SCRIPT_DIR = Path(__file__).parent.resolve()
+OUTPUT_DIR = SCRIPT_DIR.parent / "data" / "datasets"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 def download_medqa():
@@ -117,7 +119,7 @@ def create_rag_corpus():
     print("Creating RAG corpus from PubMedQA...")
     dataset = load_dataset("qiaojin/PubMedQA", "pqa_labeled")
     
-    corpus_dir = Path("d:/medgemma/data/input")
+    corpus_dir = SCRIPT_DIR.parent / "data" / "input"
     corpus_dir.mkdir(parents=True, exist_ok=True)
     
     for f in corpus_dir.glob("*.txt"):

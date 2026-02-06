@@ -1,0 +1,103 @@
+{
+  "medqa": {
+    "dataset": "MedQA",
+    "n_samples": 200,
+    "baseline_correct": 115,
+    "baseline_accuracy": 57.5,
+    "rag_correct": 110,
+    "rag_accuracy": 55.0,
+    "improvement": -2.5,
+    "avg_time": 2.433543533682823,
+    "error_samples": [
+      {
+        "idx": 0,
+        "question": "A 21-year-old male presents to his primary care provider for fatigue. He reports that he graduated f",
+        "pred": "B",
+        "truth": "A"
+      },
+      {
+        "idx": 3,
+        "question": "A 36-year-old man undergoes open reduction and internal fixation of a left femur fracture sustained ",
+        "pred": "B",
+        "truth": "D"
+      },
+      {
+        "idx": 4,
+        "question": "A 59-year-old man is brought to the emergency department with a history of black, tarry stools but d",
+        "pred": "A",
+        "truth": "B"
+      },
+      {
+        "idx": 5,
+        "question": "A 30-year-old man presents to his primary care physician with complaints of excessive fatigue and we",
+        "pred": "D",
+        "truth": "C"
+      },
+      {
+        "idx": 8,
+        "question": "A 40-year-old businessman who was previously well is brought into the emergency department by his as",
+        "pred": "A",
+        "truth": "D"
+      },
+      {
+        "idx": 13,
+        "question": "A stillborn infant is delivered at 38 weeks' gestation to a 32-year-old woman. The mother had no pre",
+        "pred": "B",
+        "truth": "C"
+      },
+      {
+        "idx": 14,
+        "question": "A 52-year-old man is brought to the emergency department for recurrent vomiting that began 5 hours a",
+        "pred": "A",
+        "truth": "C"
+      },
+      {
+        "idx": 16,
+        "question": "A 34-year-old woman presents to the plastic surgery office 3 months following a rhinoplasty procedur",
+        "pred": "A",
+        "truth": "B"
+      },
+      {
+        "idx": 20,
+        "question": "A 60-year-old female patient with a history of hypertension presents to an outpatient office for reg",
+        "pred": "A",
+        "truth": "B"
+      },
+      {
+        "idx": 21,
+        "question": "A 58-year-old male presents with an acutely elevated blood pressure of 220/140 mmHg. The patient com",
+        "pred": "A",
+        "truth": "D"
+      }
+    ]
+  },
+  "pubmedqa": {
+    "dataset": "PubMedQA",
+    "n_samples": 200,
+    "correct": 101,
+    "accuracy": 50.5,
+    "avg_time": 1.403917180299759,
+    "gt_distribution": {
+      "yes": 108,
+      "no": 59,
+      "maybe": 33
+    },
+    "pred_distribution": {
+      "yes": 126,
+      "no": 25,
+      "maybe": 49
+    }
+  },
+  "vietnamese": {
+    "dataset": "Vietnamese",
+    "n_samples": 100,
+    "avg_time": 7.5349244475364685,
+    "note": "Qualitative evaluation"
+  },
+  "metadata": {
+    "model": "medgemma-q8",
+    "start_time": "2026-02-04T14:27:38.463369",
+    "end_time": "2026-02-04T15:02:59.635125",
+    "duration_seconds": 2121.171756
+  }
+}

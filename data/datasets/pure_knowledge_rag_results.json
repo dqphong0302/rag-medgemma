@@ -1,0 +1,7 @@
+{
+  "n_samples": 100,
+  "baseline_accuracy": 55.0,
+  "rag_accuracy": 59.0,
+  "improvement": 4.0,
+  "duration_seconds": 471.541148
+}

@@ -24,14 +24,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Paths
-DATA_DIR = Path("d:/medgemma/data")
+# Paths - use relative paths from script location
+SRC_DIR = Path(__file__).parent.resolve()
+DATA_DIR = SRC_DIR.parent / "data"
 OUTPUT_DIR = DATA_DIR / "output"
-STATIC_DIR = Path("d:/medgemma/src/static")
+STATIC_DIR = SRC_DIR / "static"
 
 # Ollama config
 OLLAMA_URL = "http://localhost:11434"
-LLM_MODEL = "gemma2:2b"
+LLM_MODEL = "medgemma-q8"  # Updated to MedGemma for better medical accuracy
 
 # Request/Response models
 class QueryRequest(BaseModel):
